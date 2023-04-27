@@ -1,0 +1,34 @@
+{
+  "default_main_info": {
+    "name": null,
+    "age": null,
+    "phone": null,
+    "mail": null,
+    "index": null,
+    "address": null,
+    "add_info": null
+  },
+  "business_main_info": {
+    "name": null,
+    "age": null,
+    "phone": null,
+    "mail": null,
+    "index": null,
+    "address": null,
+    "add_info": null
+  },
+  "social_media": {
+    "vk": null,
+    "telegram": null,
+    "tiktok": null,
+    "youtube": null
+  },
+  "employer_info": {
+    "ogrnip": null,
+    "tin": null,
+    "checking_account": null,
+    "bank": null,
+    "bic": null,
+    "correspondent_account": null
+  }
+}
