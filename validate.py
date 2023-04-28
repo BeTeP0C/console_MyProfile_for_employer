@@ -173,7 +173,7 @@ def check_ogrnip (ogrnip):
       "status": False,
       "message": "ОГРНИП должен состоять из цифр"
     }
-  elif len(ogrnip) < 15:
+  elif not(len(ogrnip) == 15):
     return {
       "status": False,
       "message": "ОГРНИП содержит 15 цифр"
@@ -230,7 +230,7 @@ def check_account(account, view):
       "status": False,
       "message": f'{"Расчетный" if view == "checking" else view == "correspondent" and "Корреспондентский"} счет должен состоять из цифр'
     }
-  elif len(account) < 15:
+  elif not(len(account) == 15):
     return {
       "status": False,
       "message": f'{"Расчетный" if view == "checking" else view == "correspondent" and "Корреспондентский"} счет содержит 20 цифр'
